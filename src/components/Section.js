@@ -25,8 +25,17 @@ export default function Section(props) {
         </Carousel>
       }
       <p className="text-md-left">
-        {props.content}
+        {props.text}
       </p>
+      {!!props.quotes &&
+        <div>
+          {props.quotes.map(quote =>
+            <blockquote class="blockquote">
+              <p>“{quote}”</p>
+            </blockquote>
+          )}
+        </div>
+      }
       {!!props.links &&
         <ul>
           {props.links.map(link =>

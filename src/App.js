@@ -21,10 +21,7 @@ function App() {
       {Object.keys(contents).map(key =>
         <Section
           id={key}
-          title={contents[key].title}
-          content={contents[key].text}
-          images={contents[key].images}
-          links={contents[key].links}
+          {...contents[key]}
         />
       )}
       </div>

@@ -27,7 +27,12 @@ export default {
     title: "Student/peer evaluations",
     images: [],
     links: [],
-    text: "I haven’t seen the results on paper for myself yet, I have requested and am waiting on evaluations. But I have heard plenty of positive feedback from my students, and the results speak for themselves as well. My students have gone on to build some impressive coding projects, and also to become effective ElevenFifty Learning Assistants.",
+    text: "My students have gone on to build some impressive coding projects, and some have become effective ElevenFifty Learning Assistants. Here are some of the comments left by students about my classes:",
+    quotes: [
+      "Our instructors have been very patient with us. And I'm hopeful and assume that will continue.  Big thumbs up so far for Andrew, Adam, and Casey.",
+      "My instructors are patient and knowledgeable and that is perfect for the online situation.",
+      "The connection between the instructor and his assistants with the students is great. The instructor and his assistants doing a great job helping and responding to the students questions both on Zoom and Slack.",
+    ],
   },
   curriculum: {
     shortTitle: "Curriculum",

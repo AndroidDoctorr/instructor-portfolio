@@ -113,3 +113,8 @@ a.sourceLink:hover {
   font-weight: bold;
   color: white;
 }
+
+blockquote.blockquote {
+  font-size: 1.25rem;
+  margin: 4rem 10%;
+}
