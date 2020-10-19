@@ -103,3 +103,13 @@ li.linkItem > a {
   font-weight: bold;
   color: white;
 }
+
+a.sourceLink {
+  font-weight: bold;
+  color: white;
+}
+
+a.sourceLink:hover {
+  font-weight: bold;
+  color: white;
+}

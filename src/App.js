@@ -16,6 +16,7 @@ function App() {
         </div>
         <h1>Andrew Torr</h1>
         <h2>Software Development Instructor</h2>
+        <h2>Eleven Fifty Academy</h2>
       </div>
       {Object.keys(contents).map(key =>
         <Section
@@ -32,8 +33,9 @@ function App() {
           href="https://github.com/AndroidDoctorr/instructor-portfolio"
           target="_blank"
           rel="noopener noreferrer"
+          className="sourceLink"
         >
-          The source code for this project
+          (The source code for this project)
         </a>
       </div>
     </div>
