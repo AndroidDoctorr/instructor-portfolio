@@ -27,6 +27,15 @@ function App() {
         />
       )}
       </div>
+      <div className="section" id="source">
+        <a
+          href="https://github.com/AndroidDoctorr/instructor-portfolio"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          The source code for this project
+        </a>
+      </div>
     </div>
   );
 }
