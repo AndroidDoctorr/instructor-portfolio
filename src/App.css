@@ -36,3 +36,70 @@
     transform: rotate(360deg);
   }
 }
+
+div.App {
+  background-color: #000000;
+}
+
+nav.red1150 {
+  background-color: #e33e42;
+}
+
+nav.red1150 > a.navbar-brand {
+  color: white;
+}
+
+div.navbar-collapse > div.navbar-nav > a {
+  color: white;
+  margin: 0 1rem;
+}
+
+div.navbar-collapse > div.navbar-nav > a:visited {
+  color: #dddddds;
+}
+
+div.sections {
+  margin-top: 4rem;
+  color: white;
+}
+
+div.section {
+  padding: 2rem;
+}
+
+div.section:nth-child(2n) {
+  background-color: #e33e42;
+  clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 95%);
+  padding: 4rem 10%;
+}
+
+div.section:nth-child(2n+1) {
+  background-color: #000000;
+  padding: 10rem 10%;
+}
+
+div.section > h3 {
+  text-align: left;
+  margin: 2rem 0;
+  font-size: 16pt;
+}
+
+div.section > p {
+  margin-bottom: 2rem;
+}
+
+div.carousel-caption {
+  color: #000000;
+  background-color: rgba(255, 255, 255, 0.67);
+  text-shadow: 0px 0px 10px #ffffff;
+}
+
+li.linkItem {
+  text-align: left;
+  margin: 0.5rem 0;
+}
+
+li.linkItem > a {
+  font-weight: bold;
+  color: white;
+}

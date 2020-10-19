@@ -1,24 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
+import HeaderBar from './components/HeaderBar';
+import Section from './components/Section';
 import './App.css';
+import contents from './contents';
+import me from './images/me.jpg';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <HeaderBar />
+      <div className="sections container mt-4">
+      <div className="section" id="home">
+        <div className="mb-2">
+          <img src={me} alt="" />
+        </div>
+        <h1>Andrew Torr</h1>
+        <h2>Software Development Instructor</h2>
+      </div>
+      {Object.keys(contents).map(key =>
+        <Section
+          id={key}
+          title={contents[key].title}
+          content={contents[key].text}
+          images={contents[key].images}
+          links={contents[key].links}
+        />
+      )}
+      </div>
     </div>
   );
 }
