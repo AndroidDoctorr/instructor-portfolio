@@ -74,7 +74,7 @@ export default {
     title: "Student placements and assessments",
     images: [],
     links: [],
-    text: "I have requested and am waiting for information about technical assessments and placement rates from my classes.",
+    text: "Three of the twelve job-seeking graduates of my first (part-time) cohort have been placed by Eleven Fifty with an average starting salary of $61,466, and 6 of the 16 graduates from my (full-time) second cohort have been placed with an average salary of $47,612, so far. My third cohort just finished, but there has already been one placement with a salary of $55,000",
   },
   other: {
     shortTitle: "Other",
